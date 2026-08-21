@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Scribe</title>
+        <item>
+            <title>0.4.0</title>
+            <pubDate>Fri, 21 Aug 2026 21:34:50 +0300</pubDate>
+            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.4.0</link>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Scribe 0.4.0
+
+This is the bridge release that adds secure, native in-app updates.
+
+- Adds Sparkle 2.9.6 for update checks, downloads, installation, and relaunching inside Scribe.
+- Publishes signed update artifacts separately from the private source repository.
+- Verifies every update with both Apple Developer ID and a dedicated EdDSA update signature.
+- Checks for updates automatically each day, with an optional automatic-download setting.
+- Keeps **Check for Updates…** in both Settings and the Scribe application menu.
+
+After installing this bridge release manually, future releases can be installed without opening a browser or mounting a DMG.
+]]></description>
+            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.4.0/Scribe-0.4.0.dmg" length="5217638" type="application/octet-stream" sparkle:edSignature="NET6azZXYZ+dZXnJD+OBSp1G9xygg2b0OUBUJgW4iIrlKU7wrOgfispYvCpA04WLWLlE/Qv+rZ17bxat5uKxAA=="/>
+        </item>
+    </channel>
+</rss>
