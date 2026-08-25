@@ -3,6 +3,22 @@
     <channel>
         <title>Scribe</title>
         <item>
+            <title>0.4.5</title>
+            <pubDate>Tue, 25 Aug 2026 22:33:08 +0300</pubDate>
+            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.4.5</link>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>0.4.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Scribe 0.4.5
+
+- Keeps recording the selected microphone automatically when Zoom changes macOS audio routes while screen sharing with sound starts or stops.
+- Avoids unnecessary microphone restarts when audio buffers are still arriving normally.
+- Preserves synchronization between microphone and lesson-audio tracks when recovery is genuinely required.
+]]></description>
+            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.4.5/Scribe-0.4.5.dmg" length="7121072" type="application/octet-stream" sparkle:edSignature="Uu6jONB/05vkBuX1ygvepeE0E+MHrDdCnb6Mq/bbLgp37p9miKbS3yYSWmFkzvidIrf3zQxDfg+P9RhXjwcbBA=="/>
+        </item>
+        <item>
             <title>0.4.4</title>
             <pubDate>Tue, 25 Aug 2026 21:26:15 +0300</pubDate>
             <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.4.4</link>
@@ -71,28 +87,6 @@ This hotfix restores startup after installing Scribe 0.4.0.
 If you installed 0.4.0 and Scribe quits immediately, download and install 0.4.1 once. In-app updates will work normally after that.
 ]]></description>
             <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.4.1/Scribe-0.4.1.dmg" length="5207713" type="application/octet-stream" sparkle:edSignature="MvVM8JkQnwDTV0xbVNuuZ5A+pOl5CX4kGiSAsjHTDziaooBI2Z0qFVl0a5sMTtlKVgFSYJSOh0YS7+Ao0QWRDA=="/>
-        </item>
-        <item>
-            <title>0.4.0</title>
-            <pubDate>Fri, 21 Aug 2026 21:34:50 +0300</pubDate>
-            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.4.0</link>
-            <sparkle:version>4</sparkle:version>
-            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Scribe 0.4.0
-
-This is the bridge release that adds secure, native in-app updates.
-
-- Adds Sparkle 2.9.6 for update checks, downloads, installation, and relaunching inside Scribe.
-- Publishes signed update artifacts separately from the private source repository.
-- Verifies every update with both Apple Developer ID and a dedicated EdDSA update signature.
-- Checks for updates automatically each day, with an optional automatic-download setting.
-- Keeps **Check for Updates…** in both Settings and the Scribe application menu.
-
-After installing this bridge release manually, future releases can be installed without opening a browser or mounting a DMG.
-]]></description>
-            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.4.0/Scribe-0.4.0.dmg" length="5217638" type="application/octet-stream" sparkle:edSignature="NET6azZXYZ+dZXnJD+OBSp1G9xygg2b0OUBUJgW4iIrlKU7wrOgfispYvCpA04WLWLlE/Qv+rZ17bxat5uKxAA=="/>
         </item>
     </channel>
 </rss>
