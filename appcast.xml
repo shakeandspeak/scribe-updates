@@ -3,6 +3,23 @@
     <channel>
         <title>Scribe</title>
         <item>
+            <title>0.4.6</title>
+            <pubDate>Wed, 26 Aug 2026 08:07:29 +0300</pubDate>
+            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.4.6</link>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>0.4.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Scribe 0.4.6
+
+- Adds an opt-in teacher coaching workspace with concise post-lesson debrief cards, self-reflection, a single active teaching focus, and transparent OpenAI usage and cost controls.
+- Adds “Explain this” help throughout recording, queue, library, people, transcript, and settings screens.
+- Improves transcript readability and performance while preserving every word and timestamp returned by CrisperWhisper's native decoder.
+- Makes completed transcriptions and coaching debriefs easier to notice and open from notifications and the queue.
+]]></description>
+            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.4.6/Scribe-0.4.6.dmg" length="7662105" type="application/octet-stream" sparkle:edSignature="Qgrl9bpg2CqNxzABrkL38hrmsEIgv+o5X+rsIgOEnhdjJO9tAHVdbyG/sp9qiSusoshrNqR7HqSC0RIg/6wUDw=="/>
+        </item>
+        <item>
             <title>0.4.5</title>
             <pubDate>Tue, 25 Aug 2026 22:33:08 +0300</pubDate>
             <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.4.5</link>
@@ -68,25 +85,6 @@
 - Keeps secure in-app update checks and installation unchanged.
 ]]></description>
             <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.4.2/Scribe-0.4.2.dmg" length="5209106" type="application/octet-stream" sparkle:edSignature="fcdhQV4QMVpyRnIBPJ7ryBblo6gC+FbAUQ4BLJ4ck5nErDGNk+M/wseMvX6nlDgKzlwpnEwdVNkvcYb0j8zICw=="/>
-        </item>
-        <item>
-            <title>0.4.1</title>
-            <pubDate>Fri, 21 Aug 2026 21:50:46 +0300</pubDate>
-            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.4.1</link>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>0.4.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Scribe 0.4.1
-
-This hotfix restores startup after installing Scribe 0.4.0.
-
-- Places the transcription resources where the packaged app can load them.
-- Adds a release audit that rejects a DMG when those resources are missing or misplaced.
-
-If you installed 0.4.0 and Scribe quits immediately, download and install 0.4.1 once. In-app updates will work normally after that.
-]]></description>
-            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.4.1/Scribe-0.4.1.dmg" length="5207713" type="application/octet-stream" sparkle:edSignature="MvVM8JkQnwDTV0xbVNuuZ5A+pOl5CX4kGiSAsjHTDziaooBI2Z0qFVl0a5sMTtlKVgFSYJSOh0YS7+Ao0QWRDA=="/>
         </item>
     </channel>
 </rss>
