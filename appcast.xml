@@ -3,6 +3,22 @@
     <channel>
         <title>Scribe</title>
         <item>
+            <title>0.5.0</title>
+            <pubDate>Thu, 27 Aug 2026 10:09:40 +0300</pubDate>
+            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.5.0</link>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Scribe 0.5.0
+
+- Refocuses Scribe on its core lesson-recording, local transcription, library, and real-time assistant experience.
+- Removes the coaching workspace, Student Practice, pre-lesson briefs, the accuracy-check flow, and all feedback calibration gates.
+- Leaves existing `TeacherCoaching`, `TeacherLearningData`, and `StudentPractice` data on disk. Scribe no longer reads or changes that data, so it remains inert.
+]]></description>
+            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.5.0/Scribe-0.5.0.dmg" length="7904333" type="application/octet-stream" sparkle:edSignature="DGNUK88eMO+li2Qda23WQ2AbuRCxS3Qrf7upx4zgieEx7sRax/8UYX8WcPlJ79ADca90DK0CmjzFY3/3v/N2BQ=="/>
+        </item>
+        <item>
             <title>0.4.6</title>
             <pubDate>Wed, 26 Aug 2026 08:07:29 +0300</pubDate>
             <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.4.6</link>
@@ -70,21 +86,6 @@
 - Repairs partial recordings on Retry and skips empty placeholder tracks instead of reporting a transcription failure.
 ]]></description>
             <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.4.3/Scribe-0.4.3.dmg" length="5854093" type="application/octet-stream" sparkle:edSignature="frqsKR4jVEnkw0OKc17wyfejShjAOUZdQmOtlYljPVLnj9R1/lmvlg8qBXRcY1l8EhXGERHbERpEaVvbMszADA=="/>
-        </item>
-        <item>
-            <title>0.4.2</title>
-            <pubDate>Fri, 21 Aug 2026 22:23:58 +0300</pubDate>
-            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.4.2</link>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>0.4.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Scribe 0.4.2
-
-- Restores the update tile's original left-aligned layout.
-- Keeps secure in-app update checks and installation unchanged.
-]]></description>
-            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.4.2/Scribe-0.4.2.dmg" length="5209106" type="application/octet-stream" sparkle:edSignature="fcdhQV4QMVpyRnIBPJ7ryBblo6gC+FbAUQ4BLJ4ck5nErDGNk+M/wseMvX6nlDgKzlwpnEwdVNkvcYb0j8zICw=="/>
         </item>
     </channel>
 </rss>
