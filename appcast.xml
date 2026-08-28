@@ -3,6 +3,23 @@
     <channel>
         <title>Scribe</title>
         <item>
+            <title>0.5.2</title>
+            <pubDate>Fri, 28 Aug 2026 18:42:00 +0300</pubDate>
+            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.5.2</link>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>0.5.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Scribe 0.5.2
+
+- Adds a continuously updating live transcript ticker to Teacher Assistant, with streaming recognition across Apple Speech and every selectable local speech engine.
+- Adds the low-latency Parakeet EOU 320 ms speech model and strengthens turn recovery when a streaming recognizer or cloud analysis response fails.
+- Keeps assistant cards grounded in the student's recognized words and suppresses unsafe, incomplete, or ungrounded corrections and questions.
+- Adds in-place transcript editing with explicit Original and Edited views and exports the version currently being reviewed.
+]]></description>
+            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.5.2/Scribe-0.5.2.dmg" length="8094837" type="application/octet-stream" sparkle:edSignature="eXaco+NmHcaSOOXrqmTc2eolFRjLbZNIVtzmKz4ohCl3Zz9JiJA+wctwmAP+MwmjipQm1NdRbnQv2GoyyHjfCw=="/>
+        </item>
+        <item>
             <title>0.5.1</title>
             <pubDate>Thu, 27 Aug 2026 11:41:54 +0300</pubDate>
             <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.5.1</link>
@@ -66,25 +83,6 @@
 - Preserves synchronization between microphone and lesson-audio tracks when recovery is genuinely required.
 ]]></description>
             <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.4.5/Scribe-0.4.5.dmg" length="7121072" type="application/octet-stream" sparkle:edSignature="Uu6jONB/05vkBuX1ygvepeE0E+MHrDdCnb6Mq/bbLgp37p9miKbS3yYSWmFkzvidIrf3zQxDfg+P9RhXjwcbBA=="/>
-        </item>
-        <item>
-            <title>0.4.4</title>
-            <pubDate>Tue, 25 Aug 2026 21:26:15 +0300</pubDate>
-            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.4.4</link>
-            <sparkle:version>8</sparkle:version>
-            <sparkle:shortVersionString>0.4.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Scribe 0.4.4
-
-- Adds Apple Speech as an on-device live transcription option for Teacher Assistant while keeping completed-lesson transcription unchanged.
-- Adds optional experimental speaker echo reduction to saved recording setups and strengthens microphone recovery when audio devices change during a lesson.
-- Stops transcript audio as soon as you leave Transcriptions, remembers each lesson's position in memory, and prevents multiple lessons from playing at once.
-- Fixes Edited and Unedited filtering, queue pausing, safe transcript export, import cancellation, prepared lesson-focus invalidation, paired-device removal, and duplicate speaker-identity submissions.
-- Improves transcription ETA reporting and cold-start benchmarking, blocks recording until local transcription is ready, and gives interrupted recordings clearer keep-or-delete recovery choices.
-- Refreshes the installer disk image with a verified drag-to-Applications layout and stronger release auditing.
-]]></description>
-            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.4.4/Scribe-0.4.4.dmg" length="7110503" type="application/octet-stream" sparkle:edSignature="8PQPg9eqo+tEss5S2oaCw7+qfGvBBeuxiq0Osb0TYDYk2JuvRCiy4mjKKJrnvnLPFmcZrNi2skihxtoJ73lJAA=="/>
         </item>
     </channel>
 </rss>
