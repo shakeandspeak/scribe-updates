@@ -3,6 +3,30 @@
     <channel>
         <title>Scribe</title>
         <item>
+            <title>0.6.0</title>
+            <pubDate>Sun, 06 Sep 2026 03:57:31 +0300</pubDate>
+            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.6.0</link>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Scribe 0.6.0
+
+- Cleans the microphone track after every recording with WebRTC echo cancellation, so a lesson recorded over Zoom without earphones no longer carries the student's voice twice. The original audio is kept alongside the cleaned track.
+- Ask answers only from your transcripts. Every underlined claim opens the exact transcript line it came from, and each source has an Open in transcript button. Lesson summaries and saved memory facts help find those lines but are never shown as sources.
+- Ask follows the conversation: a follow-up stays with the student and lesson you were discussing, and a question about a date finds that lesson or names the nearest ones.
+- Ask can use Ru LLM (Cloud.ru) or OpenAI, chosen in Settings, and finds passages by meaning as well as by exact words.
+- Lesson analysis reads the original transcript text, so briefs, reports and memory facts keep names, places and titles as they were spoken.
+- Lesson analysis is durable: work interrupted by a quit or a failure resumes, and an edited transcript or corrected speaker is analysed again.
+- Student pages rank weaknesses by how often they recur across lessons, say how many examples were found in how many lessons, and show a trend only when there is enough evidence for one.
+- Vocabulary progress is measured from what the student actually says in each lesson; the manual taught-word lists are gone.
+- Automatic meeting recording: with Auto-record on in Settings → General → Meetings, Scribe starts recording when it sees you are in a call in a supported conferencing app and transcribes the lesson when the call ends.
+- The lessons list, student pages and Ask read one index file instead of every transcript, so a large library stays quick, including on older Macs.
+- The menu bar and the recording bar show how far finishing a recording has got.
+]]></description>
+            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.6.0/Scribe-0.6.0.dmg" length="9285499" type="application/octet-stream" sparkle:edSignature="S7i+SXGG/A7bRRJCHF+lbtppdA9jh4VAkNad+8X7tK0y50FDwcd7dQiSODdpkxDm2aB63iWO7Mq0JrReEJRvCw=="/>
+        </item>
+        <item>
             <title>0.5.2</title>
             <pubDate>Fri, 28 Aug 2026 18:42:00 +0300</pubDate>
             <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.5.2</link>
@@ -67,22 +91,6 @@
 - Makes completed transcriptions and coaching debriefs easier to notice and open from notifications and the queue.
 ]]></description>
             <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.4.6/Scribe-0.4.6.dmg" length="7662105" type="application/octet-stream" sparkle:edSignature="Qgrl9bpg2CqNxzABrkL38hrmsEIgv+o5X+rsIgOEnhdjJO9tAHVdbyG/sp9qiSusoshrNqR7HqSC0RIg/6wUDw=="/>
-        </item>
-        <item>
-            <title>0.4.5</title>
-            <pubDate>Tue, 25 Aug 2026 22:33:08 +0300</pubDate>
-            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.4.5</link>
-            <sparkle:version>9</sparkle:version>
-            <sparkle:shortVersionString>0.4.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Scribe 0.4.5
-
-- Keeps recording the selected microphone automatically when Zoom changes macOS audio routes while screen sharing with sound starts or stops.
-- Avoids unnecessary microphone restarts when audio buffers are still arriving normally.
-- Preserves synchronization between microphone and lesson-audio tracks when recovery is genuinely required.
-]]></description>
-            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.4.5/Scribe-0.4.5.dmg" length="7121072" type="application/octet-stream" sparkle:edSignature="Uu6jONB/05vkBuX1ygvepeE0E+MHrDdCnb6Mq/bbLgp37p9miKbS3yYSWmFkzvidIrf3zQxDfg+P9RhXjwcbBA=="/>
         </item>
     </channel>
 </rss>
