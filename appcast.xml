@@ -3,6 +3,25 @@
     <channel>
         <title>Scribe</title>
         <item>
+            <title>0.6.2</title>
+            <pubDate>Wed, 09 Sep 2026 00:18:41 +0300</pubDate>
+            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.6.2</link>
+            <sparkle:version>16</sparkle:version>
+            <sparkle:shortVersionString>0.6.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Scribe 0.6.2
+
+- Settings are organized into Recording, Transcription, AI & Memory, Library, and Help & About. Recording setups and app selection are more compact, and occasional maintenance and performance options expand when needed.
+- Manage student and teacher voice profiles from Students. Student deletion remains available with confirmation, and the archive is accessible from Lessons and Students.
+- Search for phrases across lessons and open matching moments at their transcript timestamps. Search respects transcript edits and hidden speakers. Titles you enter take priority over speaker-name fallbacks.
+- Recording safeguards can check whether you are still teaching after a quiet period, pause checks during a break, and stop and save an unanswered check. Missing audio or a sleeping Mac does not count as silence.
+- Meeting recording has clearer start and end handling, manual-stop suppression, and an optional prompt when participant changes suggest a new lesson. Start next lesson saves the current lesson while recording continues into a separate one.
+- A floating recording control keeps the timer and Stop button available above other windows.
+]]></description>
+            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.6.2/Scribe-0.6.2.dmg" length="9492834" type="application/octet-stream" sparkle:edSignature="Jfo/d6mdm9tdIeN8hXCe5tKk9Xd0EqL6mVSZ+pqIGupbhEQ0yGu98r7OmA/Eb5GiSEqcHf6zAP3iPe14nSWiCw=="/>
+        </item>
+        <item>
             <title>0.6.1</title>
             <pubDate>Sun, 06 Sep 2026 14:21:54 +0300</pubDate>
             <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.6.1</link>
@@ -75,22 +94,6 @@
 - Replaces the misleading missing-`session.json` filesystem error with the exact unavailable recording-folder location, without deleting the recovery record.
 ]]></description>
             <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.5.1/Scribe-0.5.1.dmg" length="7908832" type="application/octet-stream" sparkle:edSignature="1bKSe2CTh3BPn24O/jme0j+eKRC5wY1oUZD6aeT0wlw5kHMtsmiqsUclZDttSIcH8GdTBQBYjrWx2hqi9yyuBw=="/>
-        </item>
-        <item>
-            <title>0.5.0</title>
-            <pubDate>Thu, 27 Aug 2026 10:09:40 +0300</pubDate>
-            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.5.0</link>
-            <sparkle:version>11</sparkle:version>
-            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Scribe 0.5.0
-
-- Refocuses Scribe on its core lesson-recording, local transcription, library, and real-time assistant experience.
-- Removes the coaching workspace, Student Practice, pre-lesson briefs, the accuracy-check flow, and all feedback calibration gates.
-- Leaves existing `TeacherCoaching`, `TeacherLearningData`, and `StudentPractice` data on disk. Scribe no longer reads or changes that data, so it remains inert.
-]]></description>
-            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.5.0/Scribe-0.5.0.dmg" length="7904333" type="application/octet-stream" sparkle:edSignature="DGNUK88eMO+li2Qda23WQ2AbuRCxS3Qrf7upx4zgieEx7sRax/8UYX8WcPlJ79ADca90DK0CmjzFY3/3v/N2BQ=="/>
         </item>
     </channel>
 </rss>
