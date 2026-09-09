@@ -3,6 +3,23 @@
     <channel>
         <title>Scribe</title>
         <item>
+            <title>0.6.3</title>
+            <pubDate>Wed, 09 Sep 2026 19:06:27 +0300</pubDate>
+            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.6.3</link>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>0.6.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Scribe 0.6.3
+
+- The menu bar item opens a panel instead of a plain menu. While idle it offers Start Recording, the recording mode, and the last lesson; while recording it shows the timer, both level meters, Stop Recording, Next Lesson, and Take a Break. The menu bar icon shows the elapsed time during a recording.
+- Protection from false starts. A recording shorter than ten seconds is discarded and reported as "The Audio Is Too Short". A recording shorter than three minutes is saved but not transcribed until you choose Transcribe or Discard.
+- Errors with a name of their own use it as the alert title instead of "Something went wrong".
+- Ask answers, library refresh, transcript playback, and transfers between Macs are faster.
+]]></description>
+            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.6.3/Scribe-0.6.3.dmg" length="9618948" type="application/octet-stream" sparkle:edSignature="8LCs1nVlpzHTwiN50UtxsNGdrlODxfQ4xGBz9R4McXAnhwdJekW5ts3tXJLXX27HIws++qVO1ShS4l1ikytFCQ=="/>
+        </item>
+        <item>
             <title>0.6.2</title>
             <pubDate>Wed, 09 Sep 2026 00:18:41 +0300</pubDate>
             <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.6.2</link>
@@ -78,22 +95,6 @@
 - Adds in-place transcript editing with explicit Original and Edited views and exports the version currently being reviewed.
 ]]></description>
             <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.5.2/Scribe-0.5.2.dmg" length="8094837" type="application/octet-stream" sparkle:edSignature="eXaco+NmHcaSOOXrqmTc2eolFRjLbZNIVtzmKz4ohCl3Zz9JiJA+wctwmAP+MwmjipQm1NdRbnQv2GoyyHjfCw=="/>
-        </item>
-        <item>
-            <title>0.5.1</title>
-            <pubDate>Thu, 27 Aug 2026 11:41:54 +0300</pubDate>
-            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.5.1</link>
-            <sparkle:version>12</sparkle:version>
-            <sparkle:shortVersionString>0.5.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Scribe 0.5.1
-
-- Restores interrupted recordings to Recovery when their `session.json` metadata is missing or unreadable but the preserved audio folder still exists.
-- Reconnects recovery records whose saved staging path no longer matches the current Mac.
-- Replaces the misleading missing-`session.json` filesystem error with the exact unavailable recording-folder location, without deleting the recovery record.
-]]></description>
-            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.5.1/Scribe-0.5.1.dmg" length="7908832" type="application/octet-stream" sparkle:edSignature="1bKSe2CTh3BPn24O/jme0j+eKRC5wY1oUZD6aeT0wlw5kHMtsmiqsUclZDttSIcH8GdTBQBYjrWx2hqi9yyuBw=="/>
         </item>
     </channel>
 </rss>
