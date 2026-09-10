@@ -3,6 +3,24 @@
     <channel>
         <title>Scribe</title>
         <item>
+            <title>0.6.5</title>
+            <pubDate>Thu, 10 Sep 2026 21:24:46 +0300</pubDate>
+            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.6.5</link>
+            <sparkle:version>19</sparkle:version>
+            <sparkle:shortVersionString>0.6.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Scribe 0.6.5
+
+- Ru LLM, semantic search and reranking now run through the teacher's own server. The Mac holds one relay token instead of the Cloud.ru and Yandex keys, so the same AI features work on every teacher's Mac without putting provider secrets in the app. OpenAI answers are unchanged.
+- Each worker keeps its connection to the relay open, so a lesson's plan and answer, or an indexing run's batches, pay the connection cost once.
+- Lesson rows in History no longer show turn counts; the lesson's length is on the line above the transcript button.
+- The lesson report drops the "Wait after questions" tile and the "Draft" label; a card says "Teacher edited" only once you have changed it.
+- Fewer "Explain this" pop-ups on the recording, import and settings screens, keeping the ones that answer a real question.
+]]></description>
+            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.6.5/Scribe-0.6.5.dmg" length="9718757" type="application/octet-stream" sparkle:edSignature="31qga1h1hvgRqL5M4glK8s8a1Y8nv3a+gnPZqhrBGdF0E9k5YTeJQVXB8UlpsJ3JRdBK3WSHbrYSgGVSR+RDAg=="/>
+        </item>
+        <item>
             <title>0.6.4</title>
             <pubDate>Thu, 10 Sep 2026 17:53:14 +0300</pubDate>
             <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.6.4</link>
@@ -73,30 +91,6 @@
 - Ask's search by meaning is steadier in a large library: a lesson's index entry no longer changes when any student profile changes, fragments of a long turn are quoted in transcript order, the index keeps older lessons instead of forgetting them, the "Looked through…" line says how many lessons the search by meaning could not cover yet, and answers keep to a hard budget.
 ]]></description>
             <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.6.1/Scribe-0.6.1.dmg" length="9305294" type="application/octet-stream" sparkle:edSignature="QsSM4tVKPKOhgteLHAdWZ31Dg4yNWiJh1UO0YTJN7kvhFLSh2YTCY0SKBza0/rHE9vY8Ow8hGWlaEjX2ESMXAw=="/>
-        </item>
-        <item>
-            <title>0.6.0</title>
-            <pubDate>Sun, 06 Sep 2026 03:57:31 +0300</pubDate>
-            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.6.0</link>
-            <sparkle:version>14</sparkle:version>
-            <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Scribe 0.6.0
-
-- Cleans the microphone track after every recording with WebRTC echo cancellation, so a lesson recorded over Zoom without earphones no longer carries the student's voice twice. The original audio is kept alongside the cleaned track.
-- Ask answers only from your transcripts. Every underlined claim opens the exact transcript line it came from, and each source has an Open in transcript button. Lesson summaries and saved memory facts help find those lines but are never shown as sources.
-- Ask follows the conversation: a follow-up stays with the student and lesson you were discussing, and a question about a date finds that lesson or names the nearest ones.
-- Ask can use Ru LLM (Cloud.ru) or OpenAI, chosen in Settings, and finds passages by meaning as well as by exact words.
-- Lesson analysis reads the original transcript text, so briefs, reports and memory facts keep names, places and titles as they were spoken.
-- Lesson analysis is durable: work interrupted by a quit or a failure resumes, and an edited transcript or corrected speaker is analysed again.
-- Student pages rank weaknesses by how often they recur across lessons, say how many examples were found in how many lessons, and show a trend only when there is enough evidence for one.
-- Vocabulary progress is measured from what the student actually says in each lesson; the manual taught-word lists are gone.
-- Automatic meeting recording: with Auto-record on in Settings → General → Meetings, Scribe starts recording when it sees you are in a call in a supported conferencing app and transcribes the lesson when the call ends.
-- The lessons list, student pages and Ask read one index file instead of every transcript, so a large library stays quick, including on older Macs.
-- The menu bar and the recording bar show how far finishing a recording has got.
-]]></description>
-            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.6.0/Scribe-0.6.0.dmg" length="9285499" type="application/octet-stream" sparkle:edSignature="S7i+SXGG/A7bRRJCHF+lbtppdA9jh4VAkNad+8X7tK0y50FDwcd7dQiSODdpkxDm2aB63iWO7Mq0JrReEJRvCw=="/>
         </item>
     </channel>
 </rss>
