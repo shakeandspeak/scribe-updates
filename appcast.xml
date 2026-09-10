@@ -3,6 +3,26 @@
     <channel>
         <title>Scribe</title>
         <item>
+            <title>0.6.6</title>
+            <pubDate>Fri, 11 Sep 2026 00:27:57 +0300</pubDate>
+            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.6.6</link>
+            <sparkle:version>20</sparkle:version>
+            <sparkle:shortVersionString>0.6.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Scribe 0.6.6
+
+- Scribe now notices any call, not only Zoom, Meet, Telemost and Teams. It reads the microphone and speaker flags macOS keeps for each app, so FaceTime, Discord, Skype, Telegram, WhatsApp and other apps or sites count once one app has used both for five seconds. No audio is captured to do this.
+- When a call starts, Scribe asks first. The floating pill shows "Discord call started · Record?" with Record, Not now and, for calls found by audio, Never for that app. Nothing records until you answer. Start automatically and Off remain as choices in Settings → Recording.
+- A microphone released for twenty seconds ends the meeting, so a Meet tab hidden behind another tab or a closed browser window no longer needs a manual Stop.
+- Open Scribe at login is a switch in Settings, off by default. Scribe only notices calls while it is open, so this keeps a lesson from being missed after a restart.
+- Firefox, Vivaldi, Chromium and Orion are now scanned for meeting pages.
+- The student list no longer has an Archive button at the bottom; archiving lives in the student's "…" menu, and the archive itself stays reachable from the Lessons list and Library settings.
+- The memory row menu opens reliably again, and moving the row no longer re-runs layout during navigation. The selected sidebar item is a muted accent wash instead of a bright pill.
+]]></description>
+            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.6.6/Scribe-0.6.6.dmg" length="9757561" type="application/octet-stream" sparkle:edSignature="O+3hn/RHguqCO1aihVZ1oXySMnY2r1n3+S7F2I7HoVe8sug51H0zC9BNLb6HrRWHiw/yfxL5NOqFb/iNTNyLAw=="/>
+        </item>
+        <item>
             <title>0.6.5</title>
             <pubDate>Thu, 10 Sep 2026 21:24:46 +0300</pubDate>
             <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.6.5</link>
@@ -74,23 +94,6 @@
 - A floating recording control keeps the timer and Stop button available above other windows.
 ]]></description>
             <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.6.2/Scribe-0.6.2.dmg" length="9492834" type="application/octet-stream" sparkle:edSignature="Jfo/d6mdm9tdIeN8hXCe5tKk9Xd0EqL6mVSZ+pqIGupbhEQ0yGu98r7OmA/Eb5GiSEqcHf6zAP3iPe14nSWiCw=="/>
-        </item>
-        <item>
-            <title>0.6.1</title>
-            <pubDate>Sun, 06 Sep 2026 14:21:54 +0300</pubDate>
-            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.6.1</link>
-            <sparkle:version>15</sparkle:version>
-            <sparkle:shortVersionString>0.6.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Scribe 0.6.1
-
-- Transcription is faster with the same words and timings. Each 30-second window now runs the speech encoder once instead of three times, and windows in which the speaker segmentation found no speech are skipped, so a microphone track spends no time on the other person's turns. On a five-minute lesson excerpt the decode fell from 77 to 34 seconds with identical text.
-- A track that ends in silence no longer fails with an out-of-bounds timestamp: a word the aligner places after the audio ends is clamped or dropped instead of stopping the whole lesson.
-- The queue reports progress in lesson time. A lesson recorded on two tracks is still transcribed twice, but its row no longer suggests the lesson is twice as long as it is.
-- Ask's search by meaning is steadier in a large library: a lesson's index entry no longer changes when any student profile changes, fragments of a long turn are quoted in transcript order, the index keeps older lessons instead of forgetting them, the "Looked through…" line says how many lessons the search by meaning could not cover yet, and answers keep to a hard budget.
-]]></description>
-            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.6.1/Scribe-0.6.1.dmg" length="9305294" type="application/octet-stream" sparkle:edSignature="QsSM4tVKPKOhgteLHAdWZ31Dg4yNWiJh1UO0YTJN7kvhFLSh2YTCY0SKBza0/rHE9vY8Ow8hGWlaEjX2ESMXAw=="/>
         </item>
     </channel>
 </rss>
