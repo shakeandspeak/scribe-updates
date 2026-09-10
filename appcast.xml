@@ -3,6 +3,25 @@
     <channel>
         <title>Scribe</title>
         <item>
+            <title>0.6.4</title>
+            <pubDate>Thu, 10 Sep 2026 17:53:14 +0300</pubDate>
+            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.6.4</link>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>0.6.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Scribe 0.6.4
+
+- A new look: every screen is dark glass over one ambient backdrop. By default the desktop shows through the window; Settings → Help & About → Appearance offers a painted violet-and-amber wash instead.
+- A student's page is now a persona. Goals and learning grievances stay pinned at the top; everything else files under topics that emerge from what the student talks about ("Work", "Family", "Pets"), biggest first, with no list to maintain. A later lesson that outdates a fact retires it into "Outdated" instead of contradicting it. Click a fact to read the student's own words it rests on, and open that line in the transcript from the fact's menu. Memories, Progress and Lesson history fold away and stay folded.
+- Scribe keeps one teacher. Choose "This Is My Voice" from a student's menu to make that voice yours; the teacher's page simply says "You".
+- The floating recording pill is the only recording surface. Messages and the "Still teaching?" and "Start a new lesson?" checks open inside the pill, with their answers as buttons; there are no separate notice windows. The sidebar shows a card for the lesson being recorded or saved from every screen.
+- Fixed: switching quickly between Record, Students and Ask could make the app slower and slower and then freeze on a student with many long memories.
+- The lesson page's "Saved to memory" card shows each fact under its topic, reveals the student's words on click, and opens the transcript line from its menu.
+]]></description>
+            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.6.4/Scribe-0.6.4.dmg" length="9759917" type="application/octet-stream" sparkle:edSignature="eZQnoLDwWD/QjQXfppapALcWy28HSJc0G5FFmOyjzOPBu/VtO3tnnWDOA2Xu88GHHPSnkDy+XIiApnR0HaWhAA=="/>
+        </item>
+        <item>
             <title>0.6.3</title>
             <pubDate>Wed, 09 Sep 2026 19:06:27 +0300</pubDate>
             <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.6.3</link>
@@ -78,23 +97,6 @@
 - The menu bar and the recording bar show how far finishing a recording has got.
 ]]></description>
             <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.6.0/Scribe-0.6.0.dmg" length="9285499" type="application/octet-stream" sparkle:edSignature="S7i+SXGG/A7bRRJCHF+lbtppdA9jh4VAkNad+8X7tK0y50FDwcd7dQiSODdpkxDm2aB63iWO7Mq0JrReEJRvCw=="/>
-        </item>
-        <item>
-            <title>0.5.2</title>
-            <pubDate>Fri, 28 Aug 2026 18:42:00 +0300</pubDate>
-            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.5.2</link>
-            <sparkle:version>13</sparkle:version>
-            <sparkle:shortVersionString>0.5.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Scribe 0.5.2
-
-- Adds a continuously updating live transcript ticker to Teacher Assistant, with streaming recognition across Apple Speech and every selectable local speech engine.
-- Adds the low-latency Parakeet EOU 320 ms speech model and strengthens turn recovery when a streaming recognizer or cloud analysis response fails.
-- Keeps assistant cards grounded in the student's recognized words and suppresses unsafe, incomplete, or ungrounded corrections and questions.
-- Adds in-place transcript editing with explicit Original and Edited views and exports the version currently being reviewed.
-]]></description>
-            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.5.2/Scribe-0.5.2.dmg" length="8094837" type="application/octet-stream" sparkle:edSignature="eXaco+NmHcaSOOXrqmTc2eolFRjLbZNIVtzmKz4ohCl3Zz9JiJA+wctwmAP+MwmjipQm1NdRbnQv2GoyyHjfCw=="/>
         </item>
     </channel>
 </rss>
