@@ -3,6 +3,24 @@
     <channel>
         <title>Scribe</title>
         <item>
+            <title>0.6.8</title>
+            <pubDate>Fri, 11 Sep 2026 22:58:42 +0300</pubDate>
+            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.6.8</link>
+            <sparkle:version>22</sparkle:version>
+            <sparkle:shortVersionString>0.6.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Scribe 0.6.8
+
+- There is now one recording setup. Settings → Recording edits exactly what New Recording uses; the Setup and Manage menus are gone, and any setups you had saved were merged into your default on first launch. The "My voice" switch is gone too: choose Full lesson or Students only on New Recording.
+- The folder for new recordings lives in Settings → Library, next to the library location. Lessons already saved elsewhere stay where they are and remain in History, where the "Setup" filter is now called "Source".
+- Lesson audio takes less space. Once a transcript is published, the original uncompressed tracks are replaced by compact AAC copies, and a scratch file left behind by transcription is removed. The sidebar shows the library's size.
+- Lesson analysis (briefs, reports, memory and weakness evidence) runs on a Russian-hosted model by default, so lesson text stays with a Russian provider. OpenAI is available only with your own key, entered under Settings → AI & Memory → Advanced, with an anonymised option that replaces names, places and dates before sending.
+- Call detection is steadier: a browser must hold the microphone and speaker for twenty seconds before it counts as a call, only one call is offered at a time, and an app you can see in the Dock is always treated as itself rather than the app that opened it.
+]]></description>
+            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.6.8/Scribe-0.6.8.dmg" length="9848465" type="application/octet-stream" sparkle:edSignature="toNg8xAiRqZ6NWIrebVly2q2gL+f/QBRL2Ey6a06tiFKdrL35osdWhZYSB9PWgVitjkK2E4j/0QmEs9iPZMYAA=="/>
+        </item>
+        <item>
             <title>0.6.7</title>
             <pubDate>Fri, 11 Sep 2026 21:06:32 +0300</pubDate>
             <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.6.7</link>
@@ -74,23 +92,6 @@
 - The lesson page's "Saved to memory" card shows each fact under its topic, reveals the student's words on click, and opens the transcript line from its menu.
 ]]></description>
             <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.6.4/Scribe-0.6.4.dmg" length="9759917" type="application/octet-stream" sparkle:edSignature="eZQnoLDwWD/QjQXfppapALcWy28HSJc0G5FFmOyjzOPBu/VtO3tnnWDOA2Xu88GHHPSnkDy+XIiApnR0HaWhAA=="/>
-        </item>
-        <item>
-            <title>0.6.3</title>
-            <pubDate>Wed, 09 Sep 2026 19:06:27 +0300</pubDate>
-            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.6.3</link>
-            <sparkle:version>17</sparkle:version>
-            <sparkle:shortVersionString>0.6.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Scribe 0.6.3
-
-- The menu bar item opens a panel instead of a plain menu. While idle it offers Start Recording, the recording mode, and the last lesson; while recording it shows the timer, both level meters, Stop Recording, Next Lesson, and Take a Break. The menu bar icon shows the elapsed time during a recording.
-- Protection from false starts. A recording shorter than ten seconds is discarded and reported as "The Audio Is Too Short". A recording shorter than three minutes is saved but not transcribed until you choose Transcribe or Discard.
-- Errors with a name of their own use it as the alert title instead of "Something went wrong".
-- Ask answers, library refresh, transcript playback, and transfers between Macs are faster.
-]]></description>
-            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.6.3/Scribe-0.6.3.dmg" length="9618948" type="application/octet-stream" sparkle:edSignature="8LCs1nVlpzHTwiN50UtxsNGdrlODxfQ4xGBz9R4McXAnhwdJekW5ts3tXJLXX27HIws++qVO1ShS4l1ikytFCQ=="/>
         </item>
     </channel>
 </rss>
