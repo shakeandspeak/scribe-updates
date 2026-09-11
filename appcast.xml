@@ -3,6 +3,22 @@
     <channel>
         <title>Scribe</title>
         <item>
+            <title>0.6.7</title>
+            <pubDate>Fri, 11 Sep 2026 21:06:32 +0300</pubDate>
+            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.6.7</link>
+            <sparkle:version>21</sparkle:version>
+            <sparkle:shortVersionString>0.6.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Scribe 0.6.7
+
+- Fixed a transcription failure that could stop a lesson after the model produced a very long repeated syllable.
+- Transcription now keeps previous-text context within the model’s token limit and retries an affected section once with fresh context and protection against repeated syllables.
+- Normal speech repetitions and false starts are preserved. Original recordings remain unchanged.
+]]></description>
+            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.6.7/Scribe-0.6.7.dmg" length="9721406" type="application/octet-stream" sparkle:edSignature="UqAJv8KQ/9VDnKDu8wBvyVg7YUPnyxSKjsd43RsBt6H7aYArtlI2Q/o/TzaRbce+DVxQKgeQeoaZBbN85UIHCQ=="/>
+        </item>
+        <item>
             <title>0.6.6</title>
             <pubDate>Fri, 11 Sep 2026 00:27:57 +0300</pubDate>
             <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.6.6</link>
@@ -75,25 +91,6 @@
 - Ask answers, library refresh, transcript playback, and transfers between Macs are faster.
 ]]></description>
             <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.6.3/Scribe-0.6.3.dmg" length="9618948" type="application/octet-stream" sparkle:edSignature="8LCs1nVlpzHTwiN50UtxsNGdrlODxfQ4xGBz9R4McXAnhwdJekW5ts3tXJLXX27HIws++qVO1ShS4l1ikytFCQ=="/>
-        </item>
-        <item>
-            <title>0.6.2</title>
-            <pubDate>Wed, 09 Sep 2026 00:18:41 +0300</pubDate>
-            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.6.2</link>
-            <sparkle:version>16</sparkle:version>
-            <sparkle:shortVersionString>0.6.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Scribe 0.6.2
-
-- Settings are organized into Recording, Transcription, AI & Memory, Library, and Help & About. Recording setups and app selection are more compact, and occasional maintenance and performance options expand when needed.
-- Manage student and teacher voice profiles from Students. Student deletion remains available with confirmation, and the archive is accessible from Lessons and Students.
-- Search for phrases across lessons and open matching moments at their transcript timestamps. Search respects transcript edits and hidden speakers. Titles you enter take priority over speaker-name fallbacks.
-- Recording safeguards can check whether you are still teaching after a quiet period, pause checks during a break, and stop and save an unanswered check. Missing audio or a sleeping Mac does not count as silence.
-- Meeting recording has clearer start and end handling, manual-stop suppression, and an optional prompt when participant changes suggest a new lesson. Start next lesson saves the current lesson while recording continues into a separate one.
-- A floating recording control keeps the timer and Stop button available above other windows.
-]]></description>
-            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.6.2/Scribe-0.6.2.dmg" length="9492834" type="application/octet-stream" sparkle:edSignature="Jfo/d6mdm9tdIeN8hXCe5tKk9Xd0EqL6mVSZ+pqIGupbhEQ0yGu98r7OmA/Eb5GiSEqcHf6zAP3iPe14nSWiCw=="/>
         </item>
     </channel>
 </rss>
