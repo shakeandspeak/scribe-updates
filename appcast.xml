@@ -3,6 +3,22 @@
     <channel>
         <title>Scribe</title>
         <item>
+            <title>0.6.9</title>
+            <pubDate>Sat, 12 Sep 2026 00:40:31 +0300</pubDate>
+            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.6.9</link>
+            <sparkle:version>23</sparkle:version>
+            <sparkle:shortVersionString>0.6.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Scribe 0.6.9
+
+- Speaker echo cancellation is always on. Every microphone capture now goes through Apple Voice Processing, with headphones or speakers, so the experimental "Speaker echo" switch in Settings → Recording is gone. Recordings made earlier keep their stored setting and still decode.
+- Settings → Recording and Settings → AI & Memory read shorter: the explanatory sentences under each row were removed, and the "Recording safeguards" group is now called "Calls". Login-item problems are still shown when they occur.
+- Student memories filed under "Learning grievances & suggestions" are now called "Worries & suggestions".
+]]></description>
+            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.6.9/Scribe-0.6.9.dmg" length="9836596" type="application/octet-stream" sparkle:edSignature="QXOkl7geY+bs7J4/yu+0dXwSOgYj2ao553yq2RHbuPeEG9L0KYHudAqhTtN6kyXmpowl6UWGk4RltylIYZ7iBw=="/>
+        </item>
+        <item>
             <title>0.6.8</title>
             <pubDate>Fri, 11 Sep 2026 22:58:42 +0300</pubDate>
             <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.6.8</link>
@@ -73,25 +89,6 @@
 - Fewer "Explain this" pop-ups on the recording, import and settings screens, keeping the ones that answer a real question.
 ]]></description>
             <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.6.5/Scribe-0.6.5.dmg" length="9718757" type="application/octet-stream" sparkle:edSignature="31qga1h1hvgRqL5M4glK8s8a1Y8nv3a+gnPZqhrBGdF0E9k5YTeJQVXB8UlpsJ3JRdBK3WSHbrYSgGVSR+RDAg=="/>
-        </item>
-        <item>
-            <title>0.6.4</title>
-            <pubDate>Thu, 10 Sep 2026 17:53:14 +0300</pubDate>
-            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.6.4</link>
-            <sparkle:version>18</sparkle:version>
-            <sparkle:shortVersionString>0.6.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Scribe 0.6.4
-
-- A new look: every screen is dark glass over one ambient backdrop. By default the desktop shows through the window; Settings → Help & About → Appearance offers a painted violet-and-amber wash instead.
-- A student's page is now a persona. Goals and learning grievances stay pinned at the top; everything else files under topics that emerge from what the student talks about ("Work", "Family", "Pets"), biggest first, with no list to maintain. A later lesson that outdates a fact retires it into "Outdated" instead of contradicting it. Click a fact to read the student's own words it rests on, and open that line in the transcript from the fact's menu. Memories, Progress and Lesson history fold away and stay folded.
-- Scribe keeps one teacher. Choose "This Is My Voice" from a student's menu to make that voice yours; the teacher's page simply says "You".
-- The floating recording pill is the only recording surface. Messages and the "Still teaching?" and "Start a new lesson?" checks open inside the pill, with their answers as buttons; there are no separate notice windows. The sidebar shows a card for the lesson being recorded or saved from every screen.
-- Fixed: switching quickly between Record, Students and Ask could make the app slower and slower and then freeze on a student with many long memories.
-- The lesson page's "Saved to memory" card shows each fact under its topic, reveals the student's words on click, and opens the transcript line from its menu.
-]]></description>
-            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.6.4/Scribe-0.6.4.dmg" length="9759917" type="application/octet-stream" sparkle:edSignature="eZQnoLDwWD/QjQXfppapALcWy28HSJc0G5FFmOyjzOPBu/VtO3tnnWDOA2Xu88GHHPSnkDy+XIiApnR0HaWhAA=="/>
         </item>
     </channel>
 </rss>
