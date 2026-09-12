@@ -3,6 +3,23 @@
     <channel>
         <title>Scribe</title>
         <item>
+            <title>0.7.0</title>
+            <pubDate>Sat, 12 Sep 2026 03:53:56 +0300</pubDate>
+            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.7.0</link>
+            <sparkle:version>24</sparkle:version>
+            <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Kioku 0.7.0
+
+- Scribe is now Kioku. The app, its menu bar item, its recording pill, alerts, Settings, the installer and the update feed all use the new name, and the app icon is the new "K" mark.
+- Nothing you have set up changes. Your library, recording setup, students, memories, transcription runtime, paired Macs and macOS permissions carry over unchanged, because the app keeps the same bundle identifier and storage locations underneath.
+- Updates keep arriving through the same feed. If you installed an earlier version and updated in place, the file in Applications may still be called "Scribe.app" even though it is Kioku inside; rename it to "Kioku.app" whenever you like, or reinstall from the disk image, which is named Kioku-0.7.0.dmg.
+- Audio devices Kioku creates while recording now appear as "Kioku Private Capture" and "Kioku Remote / System Audio" in Audio MIDI Setup; the ones an earlier version created are still cleaned up.
+]]></description>
+            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.7.0/Kioku-0.7.0.dmg" length="7484253" type="application/octet-stream" sparkle:edSignature="ClF08/R5ZL0qgdM3AU65+sqEeYuN6VQAtJ3QGBKZ+4do/2yP4zvDarV4RxoPu1DDV7XXpePsRF1e/iKsSSVuDg=="/>
+        </item>
+        <item>
             <title>0.6.9</title>
             <pubDate>Sat, 12 Sep 2026 00:40:31 +0300</pubDate>
             <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.6.9</link>
@@ -71,24 +88,6 @@
 - The memory row menu opens reliably again, and moving the row no longer re-runs layout during navigation. The selected sidebar item is a muted accent wash instead of a bright pill.
 ]]></description>
             <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.6.6/Scribe-0.6.6.dmg" length="9757561" type="application/octet-stream" sparkle:edSignature="O+3hn/RHguqCO1aihVZ1oXySMnY2r1n3+S7F2I7HoVe8sug51H0zC9BNLb6HrRWHiw/yfxL5NOqFb/iNTNyLAw=="/>
-        </item>
-        <item>
-            <title>0.6.5</title>
-            <pubDate>Thu, 10 Sep 2026 21:24:46 +0300</pubDate>
-            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.6.5</link>
-            <sparkle:version>19</sparkle:version>
-            <sparkle:shortVersionString>0.6.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Scribe 0.6.5
-
-- Ru LLM, semantic search and reranking now run through the teacher's own server. The Mac holds one relay token instead of the Cloud.ru and Yandex keys, so the same AI features work on every teacher's Mac without putting provider secrets in the app. OpenAI answers are unchanged.
-- Each worker keeps its connection to the relay open, so a lesson's plan and answer, or an indexing run's batches, pay the connection cost once.
-- Lesson rows in History no longer show turn counts; the lesson's length is on the line above the transcript button.
-- The lesson report drops the "Wait after questions" tile and the "Draft" label; a card says "Teacher edited" only once you have changed it.
-- Fewer "Explain this" pop-ups on the recording, import and settings screens, keeping the ones that answer a real question.
-]]></description>
-            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.6.5/Scribe-0.6.5.dmg" length="9718757" type="application/octet-stream" sparkle:edSignature="31qga1h1hvgRqL5M4glK8s8a1Y8nv3a+gnPZqhrBGdF0E9k5YTeJQVXB8UlpsJ3JRdBK3WSHbrYSgGVSR+RDAg=="/>
         </item>
     </channel>
 </rss>
