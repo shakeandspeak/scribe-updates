@@ -3,6 +3,23 @@
     <channel>
         <title>Kioku</title>
         <item>
+            <title>0.7.2</title>
+            <pubDate>Sun, 13 Sep 2026 01:30:07 +0300</pubDate>
+            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.7.2</link>
+            <sparkle:version>26</sparkle:version>
+            <sparkle:shortVersionString>0.7.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Kioku 0.7.2
+
+- Kioku now has its own slate-blue accent colour instead of the system blue. Start Recording, Choose Audio File…, the selected Settings tab, default buttons, links, icons, progress, and the teacher's share in "Who talked more" all use it. Wherever it sits directly on the dark glass, a lighter shade of the same colour keeps it easy to read. If a Mac has a specific accent colour chosen in System Settings, standard controls follow that choice.
+- Start Recording and the other main buttons have a soft highlight along their top edge.
+- The sidebar's highlight for the current screen keeps its familiar blue.
+- The app icon is refreshed.
+]]></description>
+            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.7.2/Kioku-0.7.2.dmg" length="7523795" type="application/octet-stream" sparkle:edSignature="jN/OkARILxjKQSEtP4WAgJhxop/Xcx96NcAlq+/1GUileqjbpvyQiMTDVpLN+zm0USWr6h3F7OxD+dYnCy8gDA=="/>
+        </item>
+        <item>
             <title>0.7.1</title>
             <pubDate>Sat, 12 Sep 2026 17:46:47 +0300</pubDate>
             <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.7.1</link>
@@ -72,22 +89,6 @@
 - Call detection is steadier: a browser must hold the microphone and speaker for twenty seconds before it counts as a call, only one call is offered at a time, and an app you can see in the Dock is always treated as itself rather than the app that opened it.
 ]]></description>
             <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.6.8/Scribe-0.6.8.dmg" length="9848465" type="application/octet-stream" sparkle:edSignature="toNg8xAiRqZ6NWIrebVly2q2gL+f/QBRL2Ey6a06tiFKdrL35osdWhZYSB9PWgVitjkK2E4j/0QmEs9iPZMYAA=="/>
-        </item>
-        <item>
-            <title>0.6.7</title>
-            <pubDate>Fri, 11 Sep 2026 21:06:32 +0300</pubDate>
-            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.6.7</link>
-            <sparkle:version>21</sparkle:version>
-            <sparkle:shortVersionString>0.6.7</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Scribe 0.6.7
-
-- Fixed a transcription failure that could stop a lesson after the model produced a very long repeated syllable.
-- Transcription now keeps previous-text context within the model’s token limit and retries an affected section once with fresh context and protection against repeated syllables.
-- Normal speech repetitions and false starts are preserved. Original recordings remain unchanged.
-]]></description>
-            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.6.7/Scribe-0.6.7.dmg" length="9721406" type="application/octet-stream" sparkle:edSignature="UqAJv8KQ/9VDnKDu8wBvyVg7YUPnyxSKjsd43RsBt6H7aYArtlI2Q/o/TzaRbce+DVxQKgeQeoaZBbN85UIHCQ=="/>
         </item>
     </channel>
 </rss>
