@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="yes"?>
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
-        <title>Scribe</title>
+        <title>Kioku</title>
         <item>
             <title>0.7.0</title>
             <pubDate>Sat, 12 Sep 2026 03:53:56 +0300</pubDate>
