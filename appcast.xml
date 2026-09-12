@@ -3,6 +3,26 @@
     <channel>
         <title>Kioku</title>
         <item>
+            <title>0.7.1</title>
+            <pubDate>Sat, 12 Sep 2026 17:46:47 +0300</pubDate>
+            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.7.1</link>
+            <sparkle:version>25</sparkle:version>
+            <sparkle:shortVersionString>0.7.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Kioku 0.7.1
+
+- Failed lesson transfers now have Retry and Cancel actions. Canceling keeps the recording and lets you change this Mac's role. Update both paired Macs to use remote Retry and Cancel.
+- Interrupted transfers and lesson acceptance resume after a restart. Recovered recordings keep their recording setup, and older recordings can use a stable recovery route.
+- Saved transcription queues are preserved when a library drive is unavailable or a queue file cannot be read. Recovered work keeps its transcription settings.
+- Audio compaction waits safely alongside transcription, and completed transfers release their duplicate audio copies. Storage totals now include pending and recovery recordings.
+- Automatic folder imports retry temporary failures. Check now can retry an unchanged file after the problem is resolved.
+- Microphone recording uses the standard input path during calls; speaker echo processing happens after recording stops.
+- Local installations refresh the Kioku name in macOS and retire the former Scribe app names.
+]]></description>
+            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.7.1/Kioku-0.7.1.dmg" length="7538772" type="application/octet-stream" sparkle:edSignature="5gnLa+d1HmQi+m57NTTzI32UBcfgIfZFIz/ISKzlcYtm9aqrvybu/xGK/ZoRLd6/EWU1KXR+Y5LTg0aA/vaCBA=="/>
+        </item>
+        <item>
             <title>0.7.0</title>
             <pubDate>Sat, 12 Sep 2026 03:53:56 +0300</pubDate>
             <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.7.0</link>
@@ -68,26 +88,6 @@
 - Normal speech repetitions and false starts are preserved. Original recordings remain unchanged.
 ]]></description>
             <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.6.7/Scribe-0.6.7.dmg" length="9721406" type="application/octet-stream" sparkle:edSignature="UqAJv8KQ/9VDnKDu8wBvyVg7YUPnyxSKjsd43RsBt6H7aYArtlI2Q/o/TzaRbce+DVxQKgeQeoaZBbN85UIHCQ=="/>
-        </item>
-        <item>
-            <title>0.6.6</title>
-            <pubDate>Fri, 11 Sep 2026 00:27:57 +0300</pubDate>
-            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.6.6</link>
-            <sparkle:version>20</sparkle:version>
-            <sparkle:shortVersionString>0.6.6</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Scribe 0.6.6
-
-- Scribe now notices any call, not only Zoom, Meet, Telemost and Teams. It reads the microphone and speaker flags macOS keeps for each app, so FaceTime, Discord, Skype, Telegram, WhatsApp and other apps or sites count once one app has used both for five seconds. No audio is captured to do this.
-- When a call starts, Scribe asks first. The floating pill shows "Discord call started · Record?" with Record, Not now and, for calls found by audio, Never for that app. Nothing records until you answer. Start automatically and Off remain as choices in Settings → Recording.
-- A microphone released for twenty seconds ends the meeting, so a Meet tab hidden behind another tab or a closed browser window no longer needs a manual Stop.
-- Open Scribe at login is a switch in Settings, off by default. Scribe only notices calls while it is open, so this keeps a lesson from being missed after a restart.
-- Firefox, Vivaldi, Chromium and Orion are now scanned for meeting pages.
-- The student list no longer has an Archive button at the bottom; archiving lives in the student's "…" menu, and the archive itself stays reachable from the Lessons list and Library settings.
-- The memory row menu opens reliably again, and moving the row no longer re-runs layout during navigation. The selected sidebar item is a muted accent wash instead of a bright pill.
-]]></description>
-            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.6.6/Scribe-0.6.6.dmg" length="9757561" type="application/octet-stream" sparkle:edSignature="O+3hn/RHguqCO1aihVZ1oXySMnY2r1n3+S7F2I7HoVe8sug51H0zC9BNLb6HrRWHiw/yfxL5NOqFb/iNTNyLAw=="/>
         </item>
     </channel>
 </rss>
