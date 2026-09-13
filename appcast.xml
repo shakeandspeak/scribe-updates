@@ -3,6 +3,22 @@
     <channel>
         <title>Kioku</title>
         <item>
+            <title>0.7.4</title>
+            <pubDate>Sun, 13 Sep 2026 16:33:00 +0300</pubDate>
+            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.7.4</link>
+            <sparkle:version>28</sparkle:version>
+            <sparkle:shortVersionString>0.7.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Kioku 0.7.4
+
+- Fixed old transfer records blocking two-Mac setup when this Mac's current role could not process them.
+- Changing from Recording Mac now offers to cancel unfinished transfers while keeping the recordings. Work already accepted by the transcription Mac must still be finished or resolved first.
+- Setup rechecks waiting work before restarting and keeps the current role if changes cannot be saved.
+]]></description>
+            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.7.4/Kioku-0.7.4.dmg" length="7486636" type="application/octet-stream" sparkle:edSignature="jgtFCRi2Qe4xYiMnIRSP+WOySDLdyTcHiBW+O8m7nc1gGNtzpmM8fN/CwOitSnUBzALIbwoeKqmiIWhsG3plCA=="/>
+        </item>
+        <item>
             <title>0.7.3</title>
             <pubDate>Sun, 13 Sep 2026 12:04:35 +0300</pubDate>
             <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.7.3</link>
@@ -70,22 +86,6 @@
 - Audio devices Kioku creates while recording now appear as "Kioku Private Capture" and "Kioku Remote / System Audio" in Audio MIDI Setup; the ones an earlier version created are still cleaned up.
 ]]></description>
             <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.7.0/Kioku-0.7.0.dmg" length="7484253" type="application/octet-stream" sparkle:edSignature="ClF08/R5ZL0qgdM3AU65+sqEeYuN6VQAtJ3QGBKZ+4do/2yP4zvDarV4RxoPu1DDV7XXpePsRF1e/iKsSSVuDg=="/>
-        </item>
-        <item>
-            <title>0.6.9</title>
-            <pubDate>Sat, 12 Sep 2026 00:40:31 +0300</pubDate>
-            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.6.9</link>
-            <sparkle:version>23</sparkle:version>
-            <sparkle:shortVersionString>0.6.9</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Scribe 0.6.9
-
-- Speaker echo cancellation is always on. Every microphone capture now goes through Apple Voice Processing, with headphones or speakers, so the experimental "Speaker echo" switch in Settings → Recording is gone. Recordings made earlier keep their stored setting and still decode.
-- Settings → Recording and Settings → AI & Memory read shorter: the explanatory sentences under each row were removed, and the "Recording safeguards" group is now called "Calls". Login-item problems are still shown when they occur.
-- Student memories filed under "Learning grievances & suggestions" are now called "Worries & suggestions".
-]]></description>
-            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.6.9/Scribe-0.6.9.dmg" length="9836596" type="application/octet-stream" sparkle:edSignature="QXOkl7geY+bs7J4/yu+0dXwSOgYj2ao553yq2RHbuPeEG9L0KYHudAqhTtN6kyXmpowl6UWGk4RltylIYZ7iBw=="/>
         </item>
     </channel>
 </rss>
