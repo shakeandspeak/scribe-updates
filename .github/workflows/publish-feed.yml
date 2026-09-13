@@ -17,7 +17,7 @@ concurrency:
 
 jobs:
   deploy:
-    runs-on: macos-15
+    runs-on: windows-latest
     permissions:
       contents: read
       pages: write
@@ -26,12 +26,17 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - name: Preserve feed line endings
+        shell: bash
+        run: git config --global core.autocrlf false
+
       - name: Check out feed
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: Validate and stage feed
+        shell: bash
         run: |
-          python3 - <<'PY'
+          python - <<'PY'
           from pathlib import Path
           import shutil
           import xml.etree.ElementTree as ET
@@ -60,8 +65,9 @@ jobs:
         uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
 
       - name: Verify public feed
+        shell: bash
         run: |
-          python3 - <<'PY'
+          python - <<'PY'
           from pathlib import Path
           import os
           import subprocess
