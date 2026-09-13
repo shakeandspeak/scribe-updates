@@ -3,6 +3,21 @@
     <channel>
         <title>Kioku</title>
         <item>
+            <title>0.7.3</title>
+            <pubDate>Sun, 13 Sep 2026 12:04:35 +0300</pubDate>
+            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.7.3</link>
+            <sparkle:version>27</sparkle:version>
+            <sparkle:shortVersionString>0.7.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Kioku 0.7.3
+
+- Fixed a crash when Kioku started analysing a lesson, including automatic analysis after launch.
+- Fixed the same crash in Ask when using OpenAI.
+]]></description>
+            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.7.3/Kioku-0.7.3.dmg" length="7528367" type="application/octet-stream" sparkle:edSignature="TQzIGTBNPl3zGMgTBkCtt4E9H1URgp3akqwI5m8JJ+oCgwq22JTP8aMzwUwd2yAthSM1H2nMgooxpdDIUvUKCQ=="/>
+        </item>
+        <item>
             <title>0.7.2</title>
             <pubDate>Sun, 13 Sep 2026 01:30:07 +0300</pubDate>
             <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.7.2</link>
@@ -71,24 +86,6 @@
 - Student memories filed under "Learning grievances & suggestions" are now called "Worries & suggestions".
 ]]></description>
             <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.6.9/Scribe-0.6.9.dmg" length="9836596" type="application/octet-stream" sparkle:edSignature="QXOkl7geY+bs7J4/yu+0dXwSOgYj2ao553yq2RHbuPeEG9L0KYHudAqhTtN6kyXmpowl6UWGk4RltylIYZ7iBw=="/>
-        </item>
-        <item>
-            <title>0.6.8</title>
-            <pubDate>Fri, 11 Sep 2026 22:58:42 +0300</pubDate>
-            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.6.8</link>
-            <sparkle:version>22</sparkle:version>
-            <sparkle:shortVersionString>0.6.8</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Scribe 0.6.8
-
-- There is now one recording setup. Settings → Recording edits exactly what New Recording uses; the Setup and Manage menus are gone, and any setups you had saved were merged into your default on first launch. The "My voice" switch is gone too: choose Full lesson or Students only on New Recording.
-- The folder for new recordings lives in Settings → Library, next to the library location. Lessons already saved elsewhere stay where they are and remain in History, where the "Setup" filter is now called "Source".
-- Lesson audio takes less space. Once a transcript is published, the original uncompressed tracks are replaced by compact AAC copies, and a scratch file left behind by transcription is removed. The sidebar shows the library's size.
-- Lesson analysis (briefs, reports, memory and weakness evidence) runs on a Russian-hosted model by default, so lesson text stays with a Russian provider. OpenAI is available only with your own key, entered under Settings → AI & Memory → Advanced, with an anonymised option that replaces names, places and dates before sending.
-- Call detection is steadier: a browser must hold the microphone and speaker for twenty seconds before it counts as a call, only one call is offered at a time, and an app you can see in the Dock is always treated as itself rather than the app that opened it.
-]]></description>
-            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.6.8/Scribe-0.6.8.dmg" length="9848465" type="application/octet-stream" sparkle:edSignature="toNg8xAiRqZ6NWIrebVly2q2gL+f/QBRL2Ey6a06tiFKdrL35osdWhZYSB9PWgVitjkK2E4j/0QmEs9iPZMYAA=="/>
         </item>
     </channel>
 </rss>
