@@ -3,6 +3,27 @@
     <channel>
         <title>Kioku</title>
         <item>
+            <title>0.7.5</title>
+            <pubDate>Mon, 14 Sep 2026 00:15:09 +0300</pubDate>
+            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.7.5</link>
+            <sparkle:version>29</sparkle:version>
+            <sparkle:shortVersionString>0.7.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Kioku 0.7.5
+
+- Recordings stop safely into Recovery when storage is critically low or audio cannot be saved. Interrupted recordings recover their duration from the surviving audio.
+- Local saves preserve the original recording until the destination is ready. Damaged lesson details and recovery records no longer hide otherwise recoverable work.
+- Improved microphone reconnection and audio-format handling, with quiet, clipped, or missing-audio warnings in the recording pill. Selected call apps can reconnect to the CoreAudio capture after restarting.
+- Long recordings split into six-hour parts. Large audio files use bounded decoding and resumable transcription windows to reduce memory pressure.
+- Stalled transcription workers time out without blocking the interface. Queue writes reject competing or stale updates, and Ask rejects answers when their source lessons changed during generation.
+- Fixed the recording indicator freezing on later recordings and improved recovery after a failed stop or save.
+
+These changes add safeguards without new settings or dependencies. Hardware interruptions and speech-recognition quality still depend on the device and recording conditions.
+]]></description>
+            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.7.5/Kioku-0.7.5.dmg" length="7594340" type="application/octet-stream" sparkle:edSignature="3ME/3GxKZSkTurs0/8dp8wMBMVE5y2Gc2GhtzytYJrCIRsOxs+fyz7wn2wd1I1uDq3cRcYJ7hbxvylT3GQlsCQ=="/>
+        </item>
+        <item>
             <title>0.7.4</title>
             <pubDate>Sun, 13 Sep 2026 16:33:00 +0300</pubDate>
             <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.7.4</link>
@@ -69,23 +90,6 @@
 - Local installations refresh the Kioku name in macOS and retire the former Scribe app names.
 ]]></description>
             <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.7.1/Kioku-0.7.1.dmg" length="7538772" type="application/octet-stream" sparkle:edSignature="5gnLa+d1HmQi+m57NTTzI32UBcfgIfZFIz/ISKzlcYtm9aqrvybu/xGK/ZoRLd6/EWU1KXR+Y5LTg0aA/vaCBA=="/>
-        </item>
-        <item>
-            <title>0.7.0</title>
-            <pubDate>Sat, 12 Sep 2026 03:53:56 +0300</pubDate>
-            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.7.0</link>
-            <sparkle:version>24</sparkle:version>
-            <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Kioku 0.7.0
-
-- Scribe is now Kioku. The app, its menu bar item, its recording pill, alerts, Settings, the installer and the update feed all use the new name, and the app icon is the new "K" mark.
-- Nothing you have set up changes. Your library, recording setup, students, memories, transcription runtime, paired Macs and macOS permissions carry over unchanged, because the app keeps the same bundle identifier and storage locations underneath.
-- Updates keep arriving through the same feed. If you installed an earlier version and updated in place, the file in Applications may still be called "Scribe.app" even though it is Kioku inside; rename it to "Kioku.app" whenever you like, or reinstall from the disk image, which is named Kioku-0.7.0.dmg.
-- Audio devices Kioku creates while recording now appear as "Kioku Private Capture" and "Kioku Remote / System Audio" in Audio MIDI Setup; the ones an earlier version created are still cleaned up.
-]]></description>
-            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.7.0/Kioku-0.7.0.dmg" length="7484253" type="application/octet-stream" sparkle:edSignature="ClF08/R5ZL0qgdM3AU65+sqEeYuN6VQAtJ3QGBKZ+4do/2yP4zvDarV4RxoPu1DDV7XXpePsRF1e/iKsSSVuDg=="/>
         </item>
     </channel>
 </rss>
