@@ -3,6 +3,22 @@
     <channel>
         <title>Kioku</title>
         <item>
+            <title>0.7.6</title>
+            <pubDate>Thu, 17 Sep 2026 11:02:43 +0300</pubDate>
+            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.7.6</link>
+            <sparkle:version>30</sparkle:version>
+            <sparkle:shortVersionString>0.7.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Kioku 0.7.6
+
+- The floating recording pill is replaced by a notch island: a black bar flush with the top of the screen that wraps the notch, or stands in for one on Macs without a notch.
+- When a call starts, the island shows the app's icon and name with a Record button and an ×. Right-click the × for Never for that app.
+- While recording, the island carries the recording dot, a live timer, a level meter and Stop. Messages open the island downward instead of a separate pop-up.
+]]></description>
+            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.7.6/Kioku-0.7.6.dmg" length="7655075" type="application/octet-stream" sparkle:edSignature="9oHjryS195bexU5uzRukF3Sao0fa3VEUL/8l5eUrP72cATxthRYj3QftcbcDv7rcT4YQSCVhKypjow8Oy/JKCw=="/>
+        </item>
+        <item>
             <title>0.7.5</title>
             <pubDate>Mon, 14 Sep 2026 00:15:09 +0300</pubDate>
             <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.7.5</link>
@@ -70,26 +86,6 @@ These changes add safeguards without new settings or dependencies. Hardware inte
 - The app icon is refreshed.
 ]]></description>
             <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.7.2/Kioku-0.7.2.dmg" length="7523795" type="application/octet-stream" sparkle:edSignature="jN/OkARILxjKQSEtP4WAgJhxop/Xcx96NcAlq+/1GUileqjbpvyQiMTDVpLN+zm0USWr6h3F7OxD+dYnCy8gDA=="/>
-        </item>
-        <item>
-            <title>0.7.1</title>
-            <pubDate>Sat, 12 Sep 2026 17:46:47 +0300</pubDate>
-            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.7.1</link>
-            <sparkle:version>25</sparkle:version>
-            <sparkle:shortVersionString>0.7.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Kioku 0.7.1
-
-- Failed lesson transfers now have Retry and Cancel actions. Canceling keeps the recording and lets you change this Mac's role. Update both paired Macs to use remote Retry and Cancel.
-- Interrupted transfers and lesson acceptance resume after a restart. Recovered recordings keep their recording setup, and older recordings can use a stable recovery route.
-- Saved transcription queues are preserved when a library drive is unavailable or a queue file cannot be read. Recovered work keeps its transcription settings.
-- Audio compaction waits safely alongside transcription, and completed transfers release their duplicate audio copies. Storage totals now include pending and recovery recordings.
-- Automatic folder imports retry temporary failures. Check now can retry an unchanged file after the problem is resolved.
-- Microphone recording uses the standard input path during calls; speaker echo processing happens after recording stops.
-- Local installations refresh the Kioku name in macOS and retire the former Scribe app names.
-]]></description>
-            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.7.1/Kioku-0.7.1.dmg" length="7538772" type="application/octet-stream" sparkle:edSignature="5gnLa+d1HmQi+m57NTTzI32UBcfgIfZFIz/ISKzlcYtm9aqrvybu/xGK/ZoRLd6/EWU1KXR+Y5LTg0aA/vaCBA=="/>
         </item>
     </channel>
 </rss>
