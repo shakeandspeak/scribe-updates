@@ -3,6 +3,22 @@
     <channel>
         <title>Kioku</title>
         <item>
+            <title>0.7.7</title>
+            <pubDate>Thu, 17 Sep 2026 23:45:52 +0300</pubDate>
+            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.7.7</link>
+            <sparkle:version>31</sparkle:version>
+            <sparkle:shortVersionString>0.7.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Kioku 0.7.7
+
+- The notch no longer hides the end of a long name or title: each side of the island grows away from the notch instead of sliding under it.
+- The island is never shorter or narrower than the notch itself, so the hardware cannot show as a bump beside or below it.
+- A call found in a browser is named after the browser, not after one of its helper processes.
+]]></description>
+            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.7.7/Kioku-0.7.7.dmg" length="7660906" type="application/octet-stream" sparkle:edSignature="EGpdHSX2GO3D2FUNxS27WxXDAjfYzat1iKTFa3lsx0WU4eV+aEqLumFE2SjU+reAZgaBD08/KD9nALkkqLFTDg=="/>
+        </item>
+        <item>
             <title>0.7.6</title>
             <pubDate>Thu, 17 Sep 2026 11:02:43 +0300</pubDate>
             <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.7.6</link>
@@ -69,23 +85,6 @@ These changes add safeguards without new settings or dependencies. Hardware inte
 - Fixed the same crash in Ask when using OpenAI.
 ]]></description>
             <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.7.3/Kioku-0.7.3.dmg" length="7528367" type="application/octet-stream" sparkle:edSignature="TQzIGTBNPl3zGMgTBkCtt4E9H1URgp3akqwI5m8JJ+oCgwq22JTP8aMzwUwd2yAthSM1H2nMgooxpdDIUvUKCQ=="/>
-        </item>
-        <item>
-            <title>0.7.2</title>
-            <pubDate>Sun, 13 Sep 2026 01:30:07 +0300</pubDate>
-            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.7.2</link>
-            <sparkle:version>26</sparkle:version>
-            <sparkle:shortVersionString>0.7.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Kioku 0.7.2
-
-- Kioku now has its own slate-blue accent colour instead of the system blue. Start Recording, Choose Audio File…, the selected Settings tab, default buttons, links, icons, progress, and the teacher's share in "Who talked more" all use it. Wherever it sits directly on the dark glass, a lighter shade of the same colour keeps it easy to read. If a Mac has a specific accent colour chosen in System Settings, standard controls follow that choice.
-- Start Recording and the other main buttons have a soft highlight along their top edge.
-- The sidebar's highlight for the current screen keeps its familiar blue.
-- The app icon is refreshed.
-]]></description>
-            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.7.2/Kioku-0.7.2.dmg" length="7523795" type="application/octet-stream" sparkle:edSignature="jN/OkARILxjKQSEtP4WAgJhxop/Xcx96NcAlq+/1GUileqjbpvyQiMTDVpLN+zm0USWr6h3F7OxD+dYnCy8gDA=="/>
         </item>
     </channel>
 </rss>
