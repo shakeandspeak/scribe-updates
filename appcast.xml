@@ -3,6 +3,25 @@
     <channel>
         <title>Kioku</title>
         <item>
+            <title>0.7.8</title>
+            <pubDate>Sat, 19 Sep 2026 13:00:35 +0300</pubDate>
+            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.7.8</link>
+            <sparkle:version>32</sparkle:version>
+            <sparkle:shortVersionString>0.7.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Kioku 0.7.8
+
+- A 45-minute lesson now takes about 10 MB on disk instead of about 78 MB. Once its transcript is ready, each track keeps only the stretches where someone speaks, in a smaller format, and the separate mixed playback copy is no longer made.
+- The first transcript is still made from the full-quality recording, so it is unchanged. Playback puts your microphone and the call back together on the lesson's clock, so clicking a transcript line still lands on the right moment.
+- Every voice is fingerprinted from the full-quality audio just before it is compacted, so naming a student later still recognises them in their next lessons.
+- On first launch, lessons compacted by earlier versions are converted to the new format in the background, one at a time. This can't be undone.
+- The recording Mac sends about half as much to the transcription Mac (about 1 GB instead of 2.1 GB for a 45-minute lesson), and the transcriber receives exactly the same audio. Update both Macs: an older Kioku refuses the new package, and the lesson waits on the recording Mac until it is updated.
+- "New person…" now says why it can't be applied when a voice has too little clear speech or someone with that name already exists.
+]]></description>
+            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.7.8/Kioku-0.7.8.dmg" length="7775890" type="application/octet-stream" sparkle:edSignature="6sp5eqmq2XsJLZC3ex1Cm6No6bDbS74jrMVv7WEv9H/poHZI+IIlVaZawVQJAPjmik+86Y8hOxFvMGEoc0EiBQ=="/>
+        </item>
+        <item>
             <title>0.7.7</title>
             <pubDate>Thu, 17 Sep 2026 23:45:52 +0300</pubDate>
             <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.7.7</link>
@@ -70,21 +89,6 @@ These changes add safeguards without new settings or dependencies. Hardware inte
 - Setup rechecks waiting work before restarting and keeps the current role if changes cannot be saved.
 ]]></description>
             <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.7.4/Kioku-0.7.4.dmg" length="7486636" type="application/octet-stream" sparkle:edSignature="jgtFCRi2Qe4xYiMnIRSP+WOySDLdyTcHiBW+O8m7nc1gGNtzpmM8fN/CwOitSnUBzALIbwoeKqmiIWhsG3plCA=="/>
-        </item>
-        <item>
-            <title>0.7.3</title>
-            <pubDate>Sun, 13 Sep 2026 12:04:35 +0300</pubDate>
-            <link>https://github.com/shakeandspeak/scribe-updates/releases/tag/v0.7.3</link>
-            <sparkle:version>27</sparkle:version>
-            <sparkle:shortVersionString>0.7.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Kioku 0.7.3
-
-- Fixed a crash when Kioku started analysing a lesson, including automatic analysis after launch.
-- Fixed the same crash in Ask when using OpenAI.
-]]></description>
-            <enclosure url="https://github.com/shakeandspeak/scribe-updates/releases/download/v0.7.3/Kioku-0.7.3.dmg" length="7528367" type="application/octet-stream" sparkle:edSignature="TQzIGTBNPl3zGMgTBkCtt4E9H1URgp3akqwI5m8JJ+oCgwq22JTP8aMzwUwd2yAthSM1H2nMgooxpdDIUvUKCQ=="/>
         </item>
     </channel>
 </rss>
